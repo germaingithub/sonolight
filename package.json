@@ -1,0 +1,7 @@
+{
+  "name": "SonoLight",
+  "version": "1.0.0",
+  "description": "Prestataire de service evenmentiels",
+  "main": "index.js",
+  "license": "MIT"
+}
