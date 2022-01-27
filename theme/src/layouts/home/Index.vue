@@ -3,7 +3,7 @@
     <home-app-bar />
 
     <home-view />
-
+    <modal-view />
     <home-footer />
 
     <home-settings />
@@ -19,6 +19,8 @@
       HomeFooter: () => import('@/layouts/home/Footer'),
       HomeSettings: () => import('@/layouts/home/Settings'),
       HomeView: () => import('@/layouts/home/View'),
+      ModalView: () => import('@/components/base/popup'),
     },
   }
+
 </script>

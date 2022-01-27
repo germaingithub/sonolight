@@ -11,7 +11,7 @@
         :src="require('@/assets/sono-logo.jpeg')"
         class="mr-3 hidden-xs-only"
         contain
-        max-width="150"
+        max-width="120"
         width="100%"
       />
 
@@ -29,33 +29,14 @@
           optional
           background-color="transparent"
         >
-          <v-tab
-            v-for="(name, i) in items"
-            :key="i"
-            :to="{ name }"
-            :exact="name === 'Home'"
-            :ripple="false"
-            class="font-weight-bold"
-            min-width="96"
-            text
-          >
-            {{ name }}
+          <v-tab>
+          <router-link to="#features">Pro</router-link>
+          </v-tab>
+           <v-tab>
+         <router-link to="#theme-features">Particuliers</router-link>
           </v-tab>
         </v-tabs>
       </div>
-
-      <v-btn
-        class="font-weight-bold ml-6"
-        color="#11c684"
-        dark
-        depressed
-        href="https://store.vuetifyjs.com/products/zero-theme-pro/?ref=vtyd-app-bar"
-        rel="noopener"
-        target="_blank"
-        x-large
-      >
-        Upgrade to PRO
-      </v-btn>
 
       <v-app-bar-nav-icon
         class="hidden-md-and-up"
@@ -74,6 +55,7 @@
       items: [
         'Home',
         'Pro',
+        'Mariage',
       ],
     }),
   }

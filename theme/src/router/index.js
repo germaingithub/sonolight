@@ -24,9 +24,9 @@ const router = new Router({
           component: () => import('@/views/home/Index.vue'),
         },
         {
-          path: 'pro',
+          path: '',
           name: 'Pro',
-          component: () => import('@/views/pro/Index.vue'),
+          component: () => import('@/layouts/home/Index.vue'),
           meta: { src: require('@/assets/pro.jpg') },
         },
       ],

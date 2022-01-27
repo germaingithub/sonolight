@@ -6,31 +6,22 @@
       space="56"
     >
       <base-icon class="mb-8">
-        mdi-twitter
+        mdi-facebook
       </base-icon>
 
       <base-section-heading
         color="transparent"
         title="Social Media"
       >
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi aspernatur recusandae aut repudiandae illo error obcaecati dolores voluptate, tempore.
+        Donnez-nous de la force, Suivez-nous sur facebook pour voir nos dernières réalisations et offre.
       </base-section-heading>
-
-      <a
-        class="d-inline-block mb-8"
-        href="https://vuetifyjs.com"
-        style="text-decoration: none;"
-        target="_blank"
-      >
-        https://vuetifyjs.com
-      </a>
 
       <div class="py-4" />
 
       <v-btn
         class="font-weight-bold"
         color="white"
-        href="https://twitter.com/vuetifyjs"
+        href="https://www.facebook.com/sonolightevenementiel"
         light
         min-width="168"
         target="_blank"

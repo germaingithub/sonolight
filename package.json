@@ -3,5 +3,11 @@
   "version": "1.0.0",
   "description": "Prestataire de service evenmentiels",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "vodal": "^2.4.0"
+  },
+  "devDependencies": {
+    "prettier": "2.5.1"
+  }
 }

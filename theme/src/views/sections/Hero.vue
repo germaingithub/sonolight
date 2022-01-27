@@ -2,7 +2,7 @@
   <section id="hero">
     <v-img
       :min-height="minHeight"
-      :src="require('@/assets/light.jpg')"
+      :src="require('@/assets/sonofond.jpeg')"
       class="white--text"
       gradient="to bottom, rgba(11, 28, 61, .9), rgba(0,0,0,.4)"
     >
@@ -15,7 +15,7 @@
         >
           <base-subheading
             weight="regular"
-            title="WE LOVE MAKING THINGS SIMPLE AND AMAZING"
+            title="Toujours à votre écoute"
           />
 
           <base-heading
@@ -25,7 +25,9 @@
           />
 
           <base-body>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nobis neque aspernatur in quas iure id aliquid, esse debitis, quibusdam mollitia! Quia ea expedita magnam totam, earum omnis et perspiciatis?
+            Location de sonorisation et éclairage pour vos tous vos événements en Basse Normandie et Bretagne.
+            Nous proposons enceinte, sono, éclairage, jeux de lumière, vidéo projecteur, machine à mousse...
+            PME normande active depuis 2010 dans le domaine de la technique professionnelle du spectacle et de l’événementiel, concepteur et intégrateur basée en Basse Normandie.
           </base-body>
 
           <div

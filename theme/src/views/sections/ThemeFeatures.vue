@@ -1,7 +1,7 @@
 <template>
   <base-section id="theme-features">
-    <base-section-heading title="Theme Features">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, in! Asperiores, impedit libero. Veniam rerum saepe unde nihil possimus quibusdam esse accusamus mollitia magni fuga.
+    <base-section-heading title="Notre savoir-faire">
+      Après des années d'expérience dans l'evenmentiel dans les boites de nuit et organisations d'vement....
     </base-section-heading>
 
     <v-container>
@@ -17,7 +17,6 @@
             align="left"
             horizontal
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis illum veniam cum dolores ratione commodi beatae quas maxime, laboriosam excepturi solut!
           </base-avatar-card>
         </v-col>
       </v-row>
@@ -32,30 +31,34 @@
     data: () => ({
       features: [
         {
-          title: 'Pixel Perfect Design',
+          title: 'Mariage',
           icon: 'mdi-fountain-pen-tip',
+          text: 'Le plus beau jours de la vie... jusqu 500pax.',
         },
         {
-          title: 'Retina Ready',
+          title: 'Anniversaire',
           icon: 'mdi-cellphone',
+          text: 'Le plus beau jours de la vie... jusqu 500pax.',
         },
         {
-          color: 'primary',
-          dark: true,
-          title: 'Easily Customizable',
+          title: 'Baby shower',
           icon: 'mdi-pencil-box-outline',
+          text: 'On ferait tout pour nos petits bout de choux',
         },
         {
-          title: 'Image Parallax',
+          title: 'EVJF,EVG',
           icon: 'mdi-image-size-select-actual',
+          text: 'La dernière soirée avant la corde au cou',
         },
         {
-          title: 'Seo Optimized',
+          title: 'Divorce',
           icon: 'mdi-ice-pop',
+          text: 'Enfin libéré, délivéré, Lets party',
         },
         {
-          title: '24/7 Support',
+          title: 'Evenements personnalisé',
           icon: 'mdi-help-circle-outline',
+          text: 'un besoin en particulier, nous sommes à lecoute',
         },
       ],
     }),

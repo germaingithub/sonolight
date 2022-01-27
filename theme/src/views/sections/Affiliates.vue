@@ -4,7 +4,7 @@
     space="36"
   >
     <v-container>
-      <base-section-heading title="Who's using Zero?" />
+      <base-section-heading title="Ils nous ont fait confiance" />
 
       <v-slide-group>
         <template v-for="n in 6">
@@ -16,7 +16,7 @@
               :src="require(`@/assets/logo-${n}-${$vuetify.theme.isDark ? 'dark' : 'light'}.png`)"
               color="grey"
               contain
-              height="40"
+              height="80"
               width="128"
             />
           </v-slide-item>

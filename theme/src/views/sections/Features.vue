@@ -35,24 +35,24 @@
     data: () => ({
       cards: [
         {
-          icon: 'mdi-keyboard-outline',
-          title: 'Trendy Design',
+          icon: 'mdi-seat-outline',
+          title: 'Conference',
+          text: 'location et installation de sono et llumières pour séminaire',
+        },
+        {
+          icon: 'mdi-access-point-check',
+          title: 'Event radio local',
           text: 'Efficiently unleash media information without cross-media value. Quickly maximize value timely deliverables schemas.',
         },
         {
-          icon: 'mdi-camera-outline',
-          title: 'Photography',
+          icon: 'mdi-bookmark-music-outline',
+          title: 'Musicale et sportif',
           text: 'Efficiently unleash media information without cross-media value. Quickly maximize value timely deliverables schemas.',
         },
         {
-          icon: 'mdi-pencil-outline',
-          title: 'Brand Making',
-          text: 'Efficiently unleash media information without cross-media value. Quickly maximize value timely deliverables schemas.',
-        },
-        {
-          icon: 'mdi-puzzle-outline',
-          title: '24/7 Support',
-          text: 'Efficiently unleash media information without cross-media value. Quickly maximize value timely deliverables schemas.',
+          icon: 'mdi-storefront-outline',
+          title: 'Ouverture de magasin',
+          text: ' Quickly maximize value timely deliverables schemas.',
         },
       ],
     }),
