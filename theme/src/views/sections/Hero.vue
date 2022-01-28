@@ -1,5 +1,7 @@
 <template>
+
   <section id="hero">
+  <base-Loader />
     <v-img
       :min-height="minHeight"
       :src="require('@/assets/sonofond.jpeg')"
@@ -12,7 +14,7 @@
           height="100%"
           max-width="700"
           width="100%"
-        >
+          >
           <base-subheading
             weight="regular"
             title="Toujours à votre écoute"
@@ -29,25 +31,10 @@
             Nous proposons enceinte, sono, éclairage, jeux de lumière, vidéo projecteur, machine à mousse...
             PME normande active depuis 2010 dans le domaine de la technique professionnelle du spectacle et de l’événementiel, concepteur et intégrateur basée en Basse Normandie.
           </base-body>
-
           <div
             :class="$vuetify.breakpoint.smAndDown ? 'flex-column align-start' : 'align-center'"
             class="d-flex flex-wrap"
           >
-            <base-btn>
-              Discover More
-            </base-btn>
-
-            <span class="font-weight-bold ml-6 mr-4 my-4">or</span>
-
-            <base-btn
-              :ripple="false"
-              class="pa-1"
-              height="auto"
-              text
-            >
-              Get Started Now
-            </base-btn>
           </div>
         </v-responsive>
       </v-container>
@@ -56,9 +43,12 @@
 </template>
 
 <script>
+  import Loader from '@/components/base/Loader.vue'
   export default {
     name: 'SectionHero',
-
+    components: {
+      Loader,
+    },
     provide: {
       theme: { isDark: true },
     },
@@ -70,5 +60,21 @@
         return `calc(${height} - ${this.$vuetify.application.top}px)`
       },
     },
+    methods: {
+      show () {
+        setTimeout(() => {
+          this.visibility = true
+        }, 5000)
+      },
+    },
   }
 </script>
+<style scoped>
+.home {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+</style>

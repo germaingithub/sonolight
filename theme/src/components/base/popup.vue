@@ -34,7 +34,7 @@
     name: 'ModalConfirmation',
     data () {
       return {
-        visibility: true,
+        visibility: false,
         timeout: 0,
 
       }
