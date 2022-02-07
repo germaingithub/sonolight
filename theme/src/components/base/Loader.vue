@@ -121,7 +121,7 @@
     font-weight: 700;
     background-color: whitesmoke;
     animation: loader;
-    animation-delay: 2s;
+    animation-delay: 10s;
     animation-fill-mode: both;
     background-color: green;
   background: repeating-linear-gradient(
