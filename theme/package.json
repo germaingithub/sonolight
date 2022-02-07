@@ -7,7 +7,8 @@
     "dev": "yarn serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint eslint --fix --ext .js,.vue src ",
-    "postversion": "node scripts/postversion.js"
+    "postversion": "node scripts/postversion.js",
+    "start": "node server.js"
   },
   "dependencies": {
     "vue": "^2.6.14",
