@@ -91,7 +91,7 @@
       border-style: solid
 
   .theme--light .base-avatar--outlined .base-avatar__avatar
-    border-color: rgba(0, 0, 0, .12) !important
+    border-color: rgba(1, 0, 0, .12) !important
 
   .theme--dark .base-avatar--outlined .base-avatar__avatar
     border-color: rgba(255, 255, 255, .12) !important
