@@ -3,7 +3,7 @@
   "version": "2.0.1",
   "private": true,
   "scripts": {
-    "serve": "export NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve", 
+    "serve": "export NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve",
     "build": "export NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service build",
     "dev": "yarn serve",
     "lint": "vue-cli-service lint eslint --fix --ext .js,.vue src ",
@@ -35,6 +35,7 @@
     "heroku-repo": "^1.0.14",
     "install": "^0.13.0",
     "lodash": "^4.17.21",
+    "mime": "^3.0.0",
     "node": ">=6.9.0",
     "open": "^7.0.3",
     "sass": "~1.32.0",
